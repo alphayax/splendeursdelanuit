@@ -1,0 +1,52 @@
+
+/* Le mail */
+	#imgmail
+	{
+		height:24px;
+		width:24px;
+	}
+
+/* La fenetre */
+	#window
+	{
+		border:1px solid black;
+	}
+
+/* Le menu */
+	#menu
+	{
+		color:#FFE9A9;
+		padding-top:4px;
+		padding-bottom:4px;
+		height:20px;
+		background-color:#060049;
+	}
+
+	.sub
+	{
+		float:left;
+		cursor:pointer;
+		padding:4px;
+		margin-left:30px;
+		background-color:#060049;
+	}
+	
+	.sub:hover, a:hover
+	{
+		background-color:#0E00A5;
+	}
+/* Le contenu */
+	
+	#voletDroit
+	{
+		float:right;
+		background-color:black;
+		color:#FFE9A9;
+		font-size:16px;
+	/*	margin-left:70%;*/
+		padding:20px;
+		text-align:justify;
+		width:30%;
+	}
+	
+	

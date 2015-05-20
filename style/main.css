@@ -1,0 +1,154 @@
+
+html,body{
+	height:100%;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Le container principal */
+	#main
+	{
+		min-width:700px;
+		width:50%;
+		/*border:1px solid black;*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+/* Le mail */
+	#mail
+	{
+		float:left;
+		border:0px solid black;
+	}
+	#mail>img
+	{
+		height:24px;
+		width:24px;
+	}
+
+/* La fenetre */
+/*
+	#window
+	{
+	}
+*/
+/* L'entete */
+	#header
+	{
+		color:#0E00A5;
+		font-size:24px;
+		font-weight:bold;
+		text-align: center;
+		padding:10px;
+	}
+
+/* Le menu */
+	
+	#menu
+	{
+		color:#FFE9A9;
+		font-variant: small-caps;
+		padding-top:4px;
+		padding-bottom:4px;
+		height:20px;
+	}
+
+	#menu > div
+	{
+		float:left;
+		cursor:pointer;
+		padding:4px;
+		margin-left:30px;
+	}
+	
+	#menu, #menu > div
+	{
+		background-color:#060049;
+	}
+	
+	#menu > div:hover, a:hover
+	{
+		background-color:#0E00A5;
+	}
+	
+/* Le contenu */
+	#content
+	{
+		background-color:black;
+		/*background-image:url(../data/fond.png);*/
+		background-repeat:no-repeat;
+		background-position:top left;
+		/*width:565px;*/
+		/*height:424px;*/
+		min-height:424px;
+	}
+	
+	#voletGauche
+	{
+		float:left;
+		color:#FFE9A9;
+		background-color:#060049;
+		width:200px;
+		margin-top:20px;
+		margin-left:20px;
+	}
+	
+	li
+	{
+		list-style-type:none;
+		margin-top:2px;
+		margin-bottom:2px;
+		cursor:pointer;
+	}
+	
+	#voletDroit
+	{
+		float:right;
+		opacity:0.8;
+		background-color:black;
+		color:#FFE9A9;
+		font-size:10pt;
+	/*	margin-left:70%;*/
+		padding:20px;
+		text-align:justify;
+		width:30%;
+	}
+	
+	p:first-letter
+	{
+		color:#FFE9A9;
+		font-size:24px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		margin-right: 1px;
+		margin-left: 17px;
+	}
+/* truc et astuce */
+	a img
+	{
+		border: 0;
+	}
+	a
+	{
+		color:#FFE9A9;
+	}
+	a:link
+	{
+		text-decoration:none
+	}
+	a:visited
+	{
+		text-decoration:none
+	}
+	a:active
+	{
+		text-decoration:none
+	}
+	a:focus
+	{
+		text-decoration:none
+	}
+	#title, .endLine
+	{
+		clear:both;
+	}	
